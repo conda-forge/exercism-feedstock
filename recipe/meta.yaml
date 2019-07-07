@@ -1,5 +1,5 @@
 {% set name = "exercism" %}
-{% set version = "3.0.11" %}
+{% set version = "3.0.12" %}
 
 package:
   name: exercism
@@ -7,15 +7,15 @@ package:
 
 source:
   url: https://github.com/exercism/cli/releases/download/v{{ version }}/exercism-linux-64bit.tgz  # [linux64]
-  sha256: bf0a55abc27cbdcfcc1cba4336eafdec3486b2434b96017b75d54ec8fc7a3360  # [linux64]
+  sha256: 9e212387f8256cf52039b2f6cad122ec7c8739f9fcd15ae57c908886953df0e3  # [linux64]
   url: https://github.com/exercism/cli/releases/download/v{{ version }}/exercism-linux-32bit.tgz  # [linux32]
-  sha256: 7c22143b358e6e4370f6f1d0721f7167d8221bd0d74addd9fb94c9a4755f51a8  # [linux32]
+  sha256: b16f2918999ada0b5452055b69c45e7d93410cf3e1a40892142ab721368230d2  # [linux32]
   url: https://github.com/exercism/cli/releases/download/v{{ version }}/exercism-mac-64bit.tgz  # [osx]
-  sha256: 94565de3bb7be28a0fb403f2327bc1c04f1395fa5b953bf8f75f5cd8c79b774b  # [osx]
+  sha256: ccc5e4eded524f140ee43a15e01e8f546b2d3ffe314ad42fcfdcda66c5e76505  # [osx]
   url: https://github.com/exercism/cli/releases/download/v{{ version }}/exercism-windows-64bit.zip  # [win64]
-  sha256: 7445ac2a56acd76c816e2ca3afb8df52b30c5f16ff3f8b36102cbffd5b8fd93b  # [win64]
+  sha256: bde70577ae8b1aa4875f0cc52ad0b7c8a5005c55d1eb326de48cc76dd9f43085  # [win64]
   url: https://github.com/exercism/cli/releases/download/v{{ version }}/exercism-windows-32bit.zip  # [win32]
-  sha256: 2275f66b63c399706585efa389bc40e444c612bc8f64781c10ae20cb73eb8ba0  # [win32]
+  sha256: 1b122c5dfefef16328d09a0cac1601227919213ec4bb6bf3e79aaaa912ada530  # [win32]
 
 build:
   number: 0
