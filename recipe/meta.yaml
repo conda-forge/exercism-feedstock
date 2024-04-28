@@ -8,14 +8,10 @@ package:
 source:
   url: https://github.com/exercism/cli/releases/download/v{{ version }}/exercism-{{ version }}-linux-x86_64.tar.gz  # [linux64]
   sha256: 4be098894c47fd1aa7886946cac31ec7df73bf9c1979ad1c9ec403a79074c1dd  # [linux64]
-  url: https://github.com/exercism/cli/releases/download/v{{ version }}/exercism-{{ version }}-linux-i386.tar.gz  # [linux32]
-  sha256: 7c22143b358e6e4370f6f1d0721f7167d8221bd0d74addd9fb94c9a4755f51a8  # [linux32]
   url: https://github.com/exercism/cli/releases/download/v{{ version }}/exercism-{{ version }}-darwin-x86_64.tar.gz  # [osx]
   sha256: f032913d72ebb9074e59aa8cab9b12b4947a77fdab086cf0635741b74c35495b  # [osx]
   url: https://github.com/exercism/cli/releases/download/v{{ version }}/exercism-{{ version }}-windows-64bit.zip  # [win64]
   sha256: 0490b02ddbea66f0898003113433c69b0762a460edb1ad1c98df332a19113b0f  # [win64]
-  url: https://github.com/exercism/cli/releases/download/v{{ version }}/exercism-{{ version }}-windows-32bit.zip  # [win32]
-  sha256: 2275f66b63c399706585efa389bc40e444c612bc8f64781c10ae20cb73eb8ba0  # [win32]
 
 build:
   number: 0
