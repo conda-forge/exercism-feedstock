@@ -31,6 +31,7 @@ test:
 about:
   home: http://exercism.io
   license: MIT
+  license_file: LICENSE
   license_family: MIT
   summary: A Go based command line tool for exercism.io.
 
