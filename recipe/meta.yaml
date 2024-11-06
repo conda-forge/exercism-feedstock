@@ -1,5 +1,5 @@
 {% set name = "exercism" %}
-{% set version = "3.0.11" %}
+{% set version = "3.0.13" %}
 
 package:
   name: exercism
@@ -7,15 +7,15 @@ package:
 
 source:
   url: https://github.com/exercism/cli/releases/download/v{{ version }}/exercism-linux-64bit.tgz  # [linux64]
-  sha256: bf0a55abc27cbdcfcc1cba4336eafdec3486b2434b96017b75d54ec8fc7a3360  # [linux64]
+  sha256: 8abcd78d9fbf9c580381e86e611f50a0d5efd88aed06100cd1e4d12ee41440d2  # [linux64]
   url: https://github.com/exercism/cli/releases/download/v{{ version }}/exercism-linux-32bit.tgz  # [linux32]
-  sha256: 7c22143b358e6e4370f6f1d0721f7167d8221bd0d74addd9fb94c9a4755f51a8  # [linux32]
+  sha256: 36afe02fbfc8f5fe17033d6982e74e51ba072991d08ef12f22a78fa74c30a864  # [linux32]
   url: https://github.com/exercism/cli/releases/download/v{{ version }}/exercism-mac-64bit.tgz  # [osx]
-  sha256: 94565de3bb7be28a0fb403f2327bc1c04f1395fa5b953bf8f75f5cd8c79b774b  # [osx]
+  sha256: c1a96e8a9a8acfdad8bd7bbb1921cb6279fa8a0b4ed435ab6feb291222967c42  # [osx]
   url: https://github.com/exercism/cli/releases/download/v{{ version }}/exercism-windows-64bit.zip  # [win64]
-  sha256: 7445ac2a56acd76c816e2ca3afb8df52b30c5f16ff3f8b36102cbffd5b8fd93b  # [win64]
+  sha256: 06fa62c88749b04dfe584c9b6030da3125c4b64ff48057751ab69095764e50cf  # [win64]
   url: https://github.com/exercism/cli/releases/download/v{{ version }}/exercism-windows-32bit.zip  # [win32]
-  sha256: 2275f66b63c399706585efa389bc40e444c612bc8f64781c10ae20cb73eb8ba0  # [win32]
+  sha256: 07b8ddd743b03b1a783ac1e92b861a7d2c282a35f535e2dce95cd205d464acd1  # [win32]
 
 build:
   number: 0
@@ -31,6 +31,7 @@ test:
 about:
   home: http://exercism.io
   license: MIT
+  license_file: LICENSE
   license_family: MIT
   summary: A Go based command line tool for exercism.io.
 
